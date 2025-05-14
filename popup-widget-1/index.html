@@ -1,0 +1,96 @@
+{% if request.page_type != 'cart' and request.page_type != 'checkout' %}
+      <!-- <div id="popupWidgetIcon">
+    <img src="https://cdn.shopify.com/s/files/1/0910/8966/6336/files/widget_myloc8.gif?v=1747208969" alt="Subscribe" width="78" height="101">
+  </div> -->
+    <div id="initialPopModal">
+        <div class="popupOverlay">
+            <div class="popupWidget">
+                 <div class="closeButton">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.27404 24.07C2.93689 22.7786 1.87034 21.2338 1.13662 19.5257C0.402889 17.8176 0.016682 15.9806 0.000528595 14.1217C-0.0156248 12.2627 0.338599 10.4192 1.04253 8.69868C1.74646 6.97813 2.78601 5.415 4.10051 4.10051C5.415 2.78601 6.97813 1.74646 8.69868 1.04253C10.4192 0.338599 12.2627 -0.0156248 14.1217 0.000528595C15.9806 0.016682 17.8176 0.402889 19.5257 1.13662C21.2338 1.87034 22.7786 2.93689 24.07 4.27404C26.6202 6.91447 28.0314 10.4509 27.9995 14.1217C27.9676 17.7924 26.4952 21.3038 23.8995 23.8995C21.3038 26.4952 17.7924 27.9676 14.1217 27.9995C10.4509 28.0314 6.91447 26.6202 4.27404 24.07ZM16.132 14.172L20.094 10.21L18.12 8.23603L14.172 12.198L10.21 8.23603L8.23603 10.21L12.198 14.172L8.23603 18.134L10.21 20.108L14.172 16.146L18.134 20.108L20.108 18.134L16.146 14.172H16.132Z"
+                            fill="white" />
+                    </svg>
+                 </div>
+                <div class="popLeft">
+                    <div class="popContent">
+                        <div class="discountHeading">
+                            <h2>Get <span>10%</span> Off</h2>
+                        </div>
+                        <div class="discountCaption">
+                            <p>Be the first to know about Myloc8 special offers and news.</p>
+                        </div>
+                        <div class="emailFields">
+                            <input type="email" id="subscriptionEmail" placeholder="Your email address">
+                        </div>
+                        <div class="subscribeBtn">
+                            <input id="subscriptionButton" type="submit" value="SUBSCRIBE">
+                            <!-- <input type="submit" value="subscribe"> -->
+                        </div>
+                        <label class="popTerms" id="popTermss">
+                            <input type="checkbox">
+                            I agree to the Privacy Policy and to receiving emails from Myloc8
+                        </label>
+                    </div>
+                </div>
+                <div class="popSideimage">
+                    <img src="https://cdn.shopify.com/s/files/1/0910/8966/6336/files/banner-shirt1_jpg.webp?v=1731580104"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="confirmationPopModal">
+        <div class="popupOverlay">
+            <div class="popupWidget">
+                 <div class="closeButton">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.27404 24.07C2.93689 22.7786 1.87034 21.2338 1.13662 19.5257C0.402889 17.8176 0.016682 15.9806 0.000528595 14.1217C-0.0156248 12.2627 0.338599 10.4192 1.04253 8.69868C1.74646 6.97813 2.78601 5.415 4.10051 4.10051C5.415 2.78601 6.97813 1.74646 8.69868 1.04253C10.4192 0.338599 12.2627 -0.0156248 14.1217 0.000528595C15.9806 0.016682 17.8176 0.402889 19.5257 1.13662C21.2338 1.87034 22.7786 2.93689 24.07 4.27404C26.6202 6.91447 28.0314 10.4509 27.9995 14.1217C27.9676 17.7924 26.4952 21.3038 23.8995 23.8995C21.3038 26.4952 17.7924 27.9676 14.1217 27.9995C10.4509 28.0314 6.91447 26.6202 4.27404 24.07ZM16.132 14.172L20.094 10.21L18.12 8.23603L14.172 12.198L10.21 8.23603L8.23603 10.21L12.198 14.172L8.23603 18.134L10.21 20.108L14.172 16.146L18.134 20.108L20.108 18.134L16.146 14.172H16.132Z"
+                            fill="white" />
+                    </svg>
+                 </div>
+                <div class="popLeft">
+                    <div class="popContent">
+                        <div class="discountHeading">
+                            <h2>Please Confirm Your Email</h2>
+                        </div>
+                        <div class="discountCaption">
+                            <p>Check your email for a confirmation link. Just one more step to start receiving updates and special offers!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="popSideimage">
+                    <img src="https://cdn.shopify.com/s/files/1/0910/8966/6336/files/look-natural8_jpg.webp?v=1731580080"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="finalPopModal">
+        <div class="popupOverlay">
+            <div class="popupWidget">
+                 <div class="closeButton">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.27404 24.07C2.93689 22.7786 1.87034 21.2338 1.13662 19.5257C0.402889 17.8176 0.016682 15.9806 0.000528595 14.1217C-0.0156248 12.2627 0.338599 10.4192 1.04253 8.69868C1.74646 6.97813 2.78601 5.415 4.10051 4.10051C5.415 2.78601 6.97813 1.74646 8.69868 1.04253C10.4192 0.338599 12.2627 -0.0156248 14.1217 0.000528595C15.9806 0.016682 17.8176 0.402889 19.5257 1.13662C21.2338 1.87034 22.7786 2.93689 24.07 4.27404C26.6202 6.91447 28.0314 10.4509 27.9995 14.1217C27.9676 17.7924 26.4952 21.3038 23.8995 23.8995C21.3038 26.4952 17.7924 27.9676 14.1217 27.9995C10.4509 28.0314 6.91447 26.6202 4.27404 24.07ZM16.132 14.172L20.094 10.21L18.12 8.23603L14.172 12.198L10.21 8.23603L8.23603 10.21L12.198 14.172L8.23603 18.134L10.21 20.108L14.172 16.146L18.134 20.108L20.108 18.134L16.146 14.172H16.132Z"
+                            fill="white" />
+                    </svg>
+                 </div>
+                <div class="popLeft">
+                    <div class="popContent">
+                        <div class="discountHeading">
+                            <h2>You're Already Subscribed</h2>
+                        </div>
+                        <div class="discountCaption">
+                            <p>Your email is already registered. Make sure to check your inbox—you won’t want to miss our newest offers and smart tracking tips!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="popSideimage">
+                    <img src="https://cdn.shopify.com/s/files/1/0910/8966/6336/files/banner-shirt2_jpg.webp?v=1731580104"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
